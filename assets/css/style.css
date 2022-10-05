@@ -86,6 +86,15 @@ main
     border-bottom: 2px dotted rgb(140, 133, 133);
 }
 
+.sectionLarge
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    border-bottom: 2px dotted rgb(140, 133, 133);
+}
+
 .sectionContent
 {
     margin: 50px;
@@ -109,6 +118,13 @@ main
     width: 300px;
     height: 200px;
     background-image: url("https://placekitten.com/500/200");
+}
+
+.columnImgLarge
+{
+    width: 300px;
+    height: 400px;
+    background-image: url("https://placekitten.com/500/400");
 }
 
 .columnText
