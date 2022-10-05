@@ -10,32 +10,52 @@
         
         <div class="container"> <!--container div used to center the overall page contents-->
             <header> <!--header is for the logo/site title and nav bar-->
-                <span id="logo">
-                    Michael Virga
-                </span>
-                <span id="nav"> <!--these links will take us to the lower sections of the page-->
-                    <p class="navContent">Link 1</p>
-                    <p class="navContent">Link 2</p>
-                    <p class="navContent">Link 3</p>
-                    <p class="navContent">Link 4</p>
-                </span>
+                <div id="logo">
+                    <div style="padding:100px;margin-top: -20px;">Michael Virga</div>
+                    <div style="position:absolute;bottom:20px;font-size:medium;">A Portfolio</div>
+                </div>
+                <div id="nav"> <!--these links will take us to the lower sections of the page-->
+                    <p class="navContent"><a href="#aboutme">About Me</a></p>
+                    <p class="navContent"><a href="#project1">Project 1</a></p>
+                    <p class="navContent"><a href="#project2">Project 2</a></p>
+                    <p class="navContent"><a href="#project3">Project 3</a></p>
+                    <p class="navContent"><a href="#contact">Contact</a></p>
+                </div>
             </header>
             
             <main> <!--the main area of the page with a column of sectioned-off content-->
-                <section id="section1" class="section">
-                    <p class="sectionContent">Section content</p>
+                <section id="aboutme" class="section">
+                    <div class="columnImg"></div> <!--this column class indicates a project image...-->
+                    <div class="columnText"> <!--... while this one indicates the descriptive text content-->
+                        <p class="sectionContent">This is the about me area, it will include some information about my background and my project goals.</p>
+                    </div>
                 </section>
 
-                <section id="section2" class="section">
-                    <p class="sectionContent">Section content</p>
+                <section id="project1" class="section">
+                    <div class="columnText">
+                        <p class="sectionContent">Information about my first project.</p>
+                    </div>
+                    <div class="columnImg"></div>
                 </section>
 
-                <section id="section3" class="section">
-                    <p class="sectionContent">Section content</p>
+                <section id="project2" class="section">
+                    <div class="columnImg"></div>
+                    <div class="columnText">
+                        <p class="sectionContent">Information about my second project.</p>
+                    </div>
                 </section>
 
-                <section id="section4" class="section">
-                    <p class="sectionContent">Section content</p>
+                <section id="project3" class="section">
+                    <div class="columnText">
+                        <p class="sectionContent">Information about my third project.</p>
+                    </div>
+                    <div class="columnImg"></div>
+                </section>
+
+                <section id="contact" class="section">
+                    <div class="columnText">
+                        <p class="sectionContent">You can contact me regarding work:</br>555-555-5555</br>fake@email.fake</p>
+                    </div>
                 </section>
             </main>
 
