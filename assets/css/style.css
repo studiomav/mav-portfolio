@@ -127,6 +127,16 @@ main
     background-image: url("https://placekitten.com/500/400");
 }
 
+.columnImgKitty
+{
+    width: 300px;
+    height: 400px;
+    background-image: url("../img/kittyclicker.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .columnText
 {
     width: 300px;
